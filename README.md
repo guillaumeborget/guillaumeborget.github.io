@@ -4,7 +4,7 @@ I'm a versatile developer passionate about building things that bridge the gap b
 
 ---
 
-## 🏗️ What I'm working on
+## 🏗️ What I'm working on & previous projects
 
 ### 🔌 Firmware & Embedded Systems
 *Low-level magic and hardware control.*
@@ -26,7 +26,7 @@ I'm a versatile developer passionate about building things that bridge the gap b
 
 | Category | Technologies |
 | :--- | :--- |
-| **Languages** | C, C++, Python, JavaScript, TypeScript |
+| **Languages** | C, C++, Python, Java, JavaScript, TypeScript |
 | **Firmware** | Arduino, Raspberry, STM32Cube, FreeRTOS, ESP-IDF |
 | **Web** | React, Next.js, Node.js, Tailwind CSS |
 | **Tools** | Git, Docker, PlatformIO, CMake |
