@@ -13,7 +13,7 @@ I'm a versatile developer passionate about building things that bridge the gap b
 
 ### 💻 Software Development
 *Tools, scripts, and standalone applications.*
-* **[crypto]**: My education project to learn C++ (e.g., C++ automation for cryptography processing - **no IA code generation**). - 2025
+* **[crypto]**: My education project to learn C++ (e.g., C++ automation for cryptography processing - **no AI code generation**). - 2025
 * **[projetseti2]**: My education project inspired by Pokemon games to learn JAVA (e.g., JAVA application for transfering a board game into a video game). - 2021
 
 ### 🌐 Web Development
