@@ -18,7 +18,7 @@ I'm a versatile developer passionate about building things that bridge the gap b
 
 ### 🌐 Web Development
 *Full-stack projects and interactive interfaces.*
-* **[portfolio]**: A website to promote my skills and show my project. --> comming soon
+* **[portfolio]**: A website to promote my skills and show my projects. --> comming soon
 
 ---
 
