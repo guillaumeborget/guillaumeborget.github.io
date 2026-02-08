@@ -9,12 +9,12 @@ I'm a versatile developer passionate about building things that bridge the gap b
 ### 🔌 Firmware & Embedded Systems
 *Low-level magic and hardware control.*
 * **[Pico Pong]**: The firmware of my DIY retro gaming console (e.g., C SDK for raspberry PICO) --> comming soon.
-* **[Object detection]**: The object detection part from the firmware of my robotic education project (e.g., Python for raspberry PI4)
+* **[Object detection]**: The object detection part from the firmware of my robotic education project (e.g., Python for raspberry PI4) - 2022
 
 ### 💻 Software Development
 *Tools, scripts, and standalone applications.*
-* **[crypto]**: My education project to learn C++ (e.g., C++ automation for cryptography processing).
-* **[projetseti2]**: My education project inspired by Pokemon games to learn JAVA (e.g., JAVA application for transfering a board game into a video game).
+* **[crypto]**: My education project to learn C++ (e.g., C++ automation for cryptography processing - **no IA code generation**). - 2025
+* **[projetseti2]**: My education project inspired by Pokemon games to learn JAVA (e.g., JAVA application for transfering a board game into a video game). - 2022
 
 ### 🌐 Web Development
 *Full-stack projects and interactive interfaces.*
