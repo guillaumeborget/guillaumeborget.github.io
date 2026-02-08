@@ -9,7 +9,7 @@ I'm a versatile developer passionate about building things that bridge the gap b
 ### 🔌 Firmware & Embedded Systems
 *Low-level magic and hardware control.*
 * **[Pico Pong]**: The firmware of my DIY retro gaming console (e.g., C SDK for raspberry PICO) --> comming soon.
-* **[Object detection]**: The object detection part from the firmware of my robotic education project (e.g., Python for raspberry PI4) - 2022
+* **[Object detection]**: The object detection part from the firmware of my robotic education project (e.g., Python for raspberry PI3 - debian OS) - 2022
 
 ### 💻 Software Development
 *Tools, scripts, and standalone applications.*
