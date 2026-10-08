@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guillaume Borget — Hardware engineer, PCB designer</title>
+  <meta name="description" content="Guillaume Borget, hardware engineer and PCB designer based in Lausanne. Projects: Pico Pong handheld console, firmware and software.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="index.html">Guillaume Borget</a>
+    <ul>
+      <li><a href="#projects">Projects</a></li>
+      <li class="hide-sm"><a href="#code">Code</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <h1>Guillaume Borget</h1>
+      <p class="role">Hardware engineer · PCB designer</p>
+      <p class="intro">I design electronic boards, from the schematic and the layout to a working prototype, and I write the firmware that runs on them. Based in Lausanne, Switzerland.</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/g-borget/">LinkedIn ↗</a>
+        <a href="https://github.com/guillaumeborget">GitHub ↗</a>
+        <a href="mailto:guillaume.borget@gmail.com">guillaume.borget@gmail.com</a>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <span class="label">Projects</span>
+        <a class="feature" href="pico-pong.html">
+          <div class="anim" data-anim="assets/pico-pong/layout.webp"><img src="assets/pico-pong/layout.jpg" alt="Pico Pong PCB layout in CircuitMaker" width="800" height="381"></div>
+          <div>
+            <span class="label">2025 – 2026</span>
+            <h3>Pico Pong</h3>
+            <p>A handheld Pong console on my own PCB: Raspberry Pi Pico, colour OLED, Li-ion battery with USB charging. Schematic, layout, assembly and firmware.</p>
+            <ul class="tags"><li>PCB design</li><li>CircuitMaker</li><li>RP2040</li><li>C / Pico SDK</li><li>Power management</li><li>Fusion 360</li></ul>
+            <span class="more">Read the project →</span>
+          </div>
+        </a>
+        <a class="feature small" href="https://github.com/guillaumeborget/guillaumeborget.github.io/blob/main/Object_detection.py">
+          <div class="anim" data-anim="assets/robot/robot-tracker.webp"><img src="assets/robot/robot-tracker.jpg" alt="Educational robot turning to follow an orange ball" width="352" height="264" loading="lazy"></div>
+          <div>
+            <span class="label">2022</span>
+            <h3>Robot tracker</h3>
+            <p>Vision part of an educational robot built on a Raspberry Pi 3. My code finds a coloured object in the camera image with OpenCV (HSV threshold, then the centroid from the image moments), and the robot uses that position to turn and follow it.</p>
+            <ul class="tags"><li>Python</li><li>OpenCV</li><li>Raspberry Pi 3</li><li>Computer vision</li></ul>
+            <span class="more">See the code ↗</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="code">
+      <div class="wrap">
+        <span class="label">Other code</span>
+        <ul class="rows">
+          <li><a href="https://github.com/guillaumeborget/guillaumeborget.github.io/blob/main/crypto.cpp">
+            <strong>Crypto</strong><span class="mono">C++ · 2025</span>
+            <span class="desc">Console program to encrypt text with a key, written to learn C++.</span></a></li>
+          <li><a href="https://github.com/guillaumeborget/guillaumeborget.github.io/tree/main/projetseti2">
+            <strong>Quoridor</strong><span class="mono">Java · 2021</span>
+            <span class="desc">The Quoridor board game turned into a desktop game, a project to learn Java.</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer" id="contact">
+    <span>© 2026 Guillaume Borget · Lausanne</span>
+    <span><a href="mailto:guillaume.borget@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/g-borget/">LinkedIn</a> · <a href="https://github.com/guillaumeborget">GitHub</a></span>
+  </footer>
+
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>
