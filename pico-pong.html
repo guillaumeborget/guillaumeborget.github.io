@@ -29,7 +29,7 @@
         <p class="lead">A handheld Pong console on my own PCB, from the first schematic to the finished console.</p>
         <div class="meta">
           <div><span class="label">Role</span>Solo project, design to firmware</div>
-          <div><span class="label">Tools</span>CircuitMaker, VS Code, Pico SDK, Fusion 360</div>
+          <div><span class="label">Tools</span>Altium CircuitMaker, VS Code, Pico SDK, Fusion 360</div>
           <div><span class="label">Timeline</span>Aug 2025 – Sep 2026</div>
           <div><span class="label">Links</span><a href="https://github.com/guillaumeborget/pico-pong">Code ↗</a> · <a href="assets/pico-pong/pico-pong-schematic.pdf">Schematic (PDF)</a></div>
         </div>
@@ -90,7 +90,7 @@
             <div>
               <span class="label date">24 – 26 Aug 2025</span>
               <h3>Schematic</h3>
-              <p>Drawn in CircuitMaker. The TP4056 module was not in the library, so I made its symbol and footprint from the module dimensions.</p>
+              <p>Drawn in Altium CircuitMaker. The TP4056 module was not in the library, so I made its symbol and footprint from the module dimensions.</p>
               <ul>
                 <li>NPN driver for the piezo (4.7 kΩ base, 100 kΩ pull-down) so the GPIO doesn't supply the current</li>
                 <li>10 kΩ pull-ups on the buttons</li>
@@ -98,7 +98,7 @@
                 <li>Power LED and test points on VBUS, VSYS, 3V3, BUZZ, both buttons and GND</li>
               </ul>
             </div>
-            <figure class="clip"><div class="anim" data-anim="assets/pico-pong/schematic.webp"><img src="assets/pico-pong/schematic.jpg" alt="Schematic in CircuitMaker" width="800" height="457" loading="lazy"></div><figcaption>The schematic growing over three evenings.</figcaption></figure>
+            <figure class="clip"><div class="anim" data-anim="assets/pico-pong/schematic.webp"><img src="assets/pico-pong/schematic.jpg" alt="Schematic in Altium CircuitMaker" width="800" height="457" loading="lazy"></div><figcaption>The schematic growing over three evenings.</figcaption></figure>
           </li>
           <li class="step">
             <div>
@@ -107,7 +107,7 @@
               <p>Board outline sized around the display and the Pico. Components placed first, then routing on two layers, with wider tracks for VSYS and 3V3 and a ground pour. The decoupling capacitors sit next to the pins they filter and the SPI lines are kept short. Design rules checked with DRC until there was no violation left.</p>
             </div>
             <div>
-              <figure class="clip"><div class="anim" data-anim="assets/pico-pong/layout.webp"><img src="assets/pico-pong/layout.jpg" alt="Placement and routing in CircuitMaker" width="800" height="381" loading="lazy"></div><figcaption>From the ratsnest to the ground pour.</figcaption></figure>
+              <figure class="clip"><div class="anim" data-anim="assets/pico-pong/layout.webp"><img src="assets/pico-pong/layout.jpg" alt="Placement and routing in Altium CircuitMaker" width="800" height="381" loading="lazy"></div><figcaption>From the ratsnest to the ground pour.</figcaption></figure>
               <figure class="clip" style="margin-top:1rem"><div class="anim" data-anim="assets/pico-pong/routing.webp"><img src="assets/pico-pong/routing.jpg" alt="Routing close-up" width="800" height="475" loading="lazy"></div><figcaption>Routing, closer.</figcaption></figure>
             </div>
           </li>
@@ -117,7 +117,7 @@
               <h3>3D check and order</h3>
               <p>Before ordering, I went through the 3D view to check the position of the charger module, the USB connectors and the mounting holes. Gerbers and drill files exported and sent to JLCPCB (available on request).</p>
             </div>
-            <figure class="clip"><div class="anim" data-anim="assets/pico-pong/board-3d.webp"><img src="assets/pico-pong/board-3d.jpg" alt="3D view of the board" width="800" height="358" loading="lazy"></div><figcaption>3D view in CircuitMaker.</figcaption></figure>
+            <figure class="clip"><div class="anim" data-anim="assets/pico-pong/board-3d.webp"><img src="assets/pico-pong/board-3d.jpg" alt="3D view of the board" width="800" height="358" loading="lazy"></div><figcaption>3D view in Altium CircuitMaker.</figcaption></figure>
           </li>
           <li class="step">
             <div>

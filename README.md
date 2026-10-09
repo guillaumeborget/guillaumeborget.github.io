@@ -7,7 +7,7 @@ Hardware engineer and PCB designer based in Lausanne. I design electronic boards
 ## 🏗️ What I'm working on & previous projects
 
 ### 🔧 Hardware & PCB design
-* **[Pico Pong](https://github.com/guillaumeborget/pico-pong)**: My DIY handheld Pong console: own 2-layer PCB (CircuitMaker), Li-ion battery with USB charging, firmware in C (Pico SDK), case designed in Fusion 360. See the [project page](https://guillaumeborget.github.io/pico-pong.html). - 2025/2026
+* **[Pico Pong](https://github.com/guillaumeborget/pico-pong)**: My DIY handheld Pong console: own 2-layer PCB (Altium CircuitMaker), Li-ion battery with USB charging, firmware in C (Pico SDK), case designed in Fusion 360. See the [project page](https://guillaumeborget.github.io/pico-pong.html). - 2025/2026
 
 ### 🔌 Firmware & Embedded Systems
 *Low-level magic and hardware control.*
