@@ -137,3 +137,8 @@ pre.code .c { color: var(--muted); }
 }
 .step.solo { grid-template-columns: 1fr; }
 .step.solo > div { max-width: 40em; }
+
+.docs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 1rem; }
+.doc { margin: 0; }
+.doc img { width: 100%; aspect-ratio: 640 / 500; object-fit: cover; object-position: top; border: 1px solid var(--line); border-radius: 4px; box-shadow: 0 10px 30px rgba(0, 0, 0, .06); }
+@media (max-width: 800px) { .docs { grid-template-columns: 1fr; } }
